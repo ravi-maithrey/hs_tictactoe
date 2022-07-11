@@ -6,7 +6,7 @@ module MyLib (someFunc) where
 someFunc :: IO ()
 someFunc = putStrLn "someFunc"
 
-initializeBoard :: _ -> [[[Char]]]
+initializeBoard :: [[[Char]]]
 initializeBoard = 
     board = [["", "", ""], ["", "", ""], ["", "", ""]]
 
